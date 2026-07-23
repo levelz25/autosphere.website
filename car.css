@@ -1,0 +1,492 @@
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*THE LOGO NAME*/
+.logo_name{
+    letter-spacing: 5px;
+    font-style: italic;
+    color: gold;
+    
+}
+
+.icon{
+    font-size: larger;
+    font-weight: bolder;
+    color: goldenrod;
+   
+}
+
+/*THE NAVIGATIONS*/
+nav{
+    position: fixed;
+    right: 10px;
+    top: -1px;
+    margin-top: 5px;
+    
+}
+nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: large;
+    color: goldenrod;
+    
+   
+}
+nav a:hover{
+    box-shadow: 3px 3px 3px gold;
+                
+}
+/*THE HOME SECTION*/
+.home{
+    background-image: url(image/IMG_0708.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+/*THE COMPANY NAME*/
+h1{
+    color: gold;
+   padding-top: 15%;
+   text-align: center;
+   font-size: 70px;
+   font-weight: bolder;
+   font-style: normal;
+   word-spacing: 10px;
+   letter-spacing: 7px;
+   font-family: Trirong sans-serif;
+   text-shadow: 2px 2px 2px;
+}
+/*THE HOME DESCRIPTION*/
+.home_description{
+   text-align: center;
+    color: gold;
+    word-spacing: 5px;
+    margin-top: -20px;
+}
+
+/*THE VIEW MORE BUTTON*/
+.view{
+    position: absolute;
+    left: 45%;
+    top: 75%;
+   color: gold;
+   background-color: black;
+   font-size: 20px;
+}
+view:hover{
+    outline-style: outset;
+   outline-color: goldenrod;
+   outline-width: thick;
+}
+
+/*OUR INVENTORY*/
+h2{
+    text-align: center;
+    font-family: Trirong, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 2px 2px 3px black;
+    color: gold;
+    position: static;
+    margin-top: 50px;
+}
+/*VEHICLE1*/
+.vehicle1{
+    max-width: 26%;
+    height: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+   margin-top: 10%;
+    margin-left: 75%;
+}
+.tesla{
+    width: 102%;
+    margin-right: 5px;
+   
+    
+   
+}
+h3{
+    word-spacing: 10px;
+    color: gold;
+    font-style: oblique;
+    font-weight: normal;
+    font-size: 20px;
+}
+/*THE INFO OF THE CAR*/
+.info{
+    color: goldenrod;
+    font-size: large;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Trirong, sans-serif;
+    border-bottom: 0.01px solid gold;
+}
+/*THE VIEW MORE DETAILS*/
+.details{
+      color:black;
+      background-color: gold;
+      font-size: 10px;
+
+}
+
+/*THE SECOND VEHICLE*/
+.vehicle2{
+   max-width: 28%;
+    height: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 40%;
+    margin-top: -43%;
+      
+}
+/*THE CAR IMAGE*/
+.toyota{
+   width: 102%;
+   margin-right: 5px;
+   height: 310px;
+}
+
+/*THE THIRD VEHICLE*/
+.vehicle3{
+    max-width: 28%;
+    height: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -43%;
+    margin-left: 5%;
+    
+
+}
+.range{
+      width: 102%;
+   margin-right: 5px;
+   height: 310px;
+   
+}
+/*THE FOURTH VEHICLE*/
+.vehicle4{
+      max-width: 28%;
+    height: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 75%;
+    margin-top: 5%;
+}
+.bmw{
+    width: 102%;
+   margin-right: 5px;
+   height: 340px;
+   
+}
+/*THE FIFTH VEHICLE*/
+.vehicle5{
+    max-width: 28%;
+    height: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 40%;
+    margin-top: -47%;
+}
+.jeep{
+    width: 102%;
+   margin-right: 5px;
+   height: 340px;
+}
+
+/*THE SIXTH VEHICLE*/
+.vehicle6{
+     max-width: 28%;
+    height: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -47%;
+    margin-left: 5%;
+}
+.ferrari{
+    width: 102%;
+   margin-right: 5px;
+   height: 340px;
+}
+
+/*THE FINANCING PART*/
+.financing_form{
+    max-width: 70%;
+    margin: auto;
+    font-size: 30px;
+    background-color: black;
+    color: gold;
+}
+.form1{
+    padding: 5px;
+}
+/*THE FAQ QUESTION*/
+.faq{
+    text-align: left;
+    font-family: Trirong, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 2px 2px 3px black;
+    color: gold;
+    position: static;
+    margin-top: 50px;
+}
+dl{
+    color:gold;
+    font-size: 30px;
+    text-align: justify;
+    font-weight: lighter;
+    font-family: Trirong, sans-serif;
+    font-style: normal;
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+}
+
+/*THE SERVICES SIDE*/
+.service1{
+    width: 20%;
+    height: 10%;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-left: 78%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px gold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    position: static;
+    
+}
+/*THE LOGO*/
+.logo{
+   padding-left: 30px;
+   font-size: 30px;
+}
+/*THE SERVICE BUTTON*/
+.service_button{
+    background-color: gold;
+}
+.service_button:hover{
+    box-shadow: 4px 4px 4px goldenrod;
+}
+
+/*THE SECOND SERVICE*/
+.service2{
+     width: 20%;
+    height: 10%;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-left: 53.5%;
+    margin-top: -12.8%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px gold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    position: static;
+}
+
+/*THE THIRD SERVICE*/
+.service3{
+     width: 20%;
+    height: 10%;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-left: 28%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px gold;
+    margin-top: -13%;
+    position: static;
+}
+
+/*THE SERVICE FOUR*/
+.service4{
+     width: 20%;
+    height: 10%;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+   margin-top: -13%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px gold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+/*THE SERVICE FIVE*/
+.service5{
+     width: 20%;
+    height: 10%;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-left: 78%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px gold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-top: 5%;
+}
+
+/*THE SERVICE SIX*/
+.service6{
+     width: 20%;
+    height: 10%;
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-left: 53.5%;
+    margin-top: -13%;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px gold; 
+}
+/*THE ABOUT SECTION*/
+.about_image{
+    width: 40%;
+    height: 40%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.about_description{
+    width: 30%;
+    height: auto;
+    border: 0.1 px solid black;
+    font-size: 25px;
+    font-family: Trirong, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    word-spacing: 3px;
+    margin-left: 55%;
+    line-height: 40px;
+    margin-top: -60%;
+}
+/*THE LINE*/
+.line{
+    display: inline;
+    margin-left: 130px;
+}
+.line1{
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: goldenrod;
+}
+ .side_bar{
+    position: sticky;
+    bottom: 50px;
+    right: 0;        
+ }
+ .whatsapp{
+    color: green;
+    font-size: 30px;
+    margin: auto;
+ }
+ /*THE MESSAGE*/
+.message_us {
+    width: 40%;
+    color:goldenrod;
+    font-size: 28px;
+    border-right: 2px solid black;
+    padding: 35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.message{
+    margin: auto;
+    padding: 10px;
+}
+/*THE LOCATION*/
+.location{
+    margin-left: 50%;
+    font-size: 30px;
+    word-spacing: 5px;
+    margin-top: -45%;
+}
+.locate{
+    padding: 10px;
+    color: goldenrod;
+}
+.locate1{
+     padding: 10px;
+    color: goldenrod;
+    word-spacing: 5px;
+}
+/*THE FOOTER*/
+footer{
+    background-color: black;
+    color: gold;
+    max-width: 100%;
+    height: auto;
+    position: static;
+    font-style: normal;
+    font-family: Trirong,sans-serif;
+   margin-top: 100px;
+   padding-top: 5px;
+}
+ul{
+    list-style-type: none;
+}
+.facebook{
+    color: blue;
+    font-size: 30px;
+}
+.tiktok{
+    color: white;
+    font-size: 30px;
+}
+.foot{
+    display: inline;
+    padding: 100px;
+}
+.assist{
+   margin-left: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+.locate{
+      margin-left: 30px;
+    font-size: 20px;
+}
+.foots{
+    margin-left: 30%;
+    font-size: 25px;
+    word-spacing: 5px;
+}
