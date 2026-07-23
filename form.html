@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Forms</title>
+    </head>
+    <body>
+        <form action="#">
+            <fieldset>
+                <legend>Apply</legend>
+                <!--the name-->
+                <label for="name">Full Name</label>
+                <br>
+                <input type="text" id="name" name="fullname" placeholder="name" size="30">
+                <br>
+        <!--the phone-->
+<label for="phone">Phone</label>
+<br>
+<input type="tel" id="phone" name="phone" size="30">
+<br>
+
+<!--male-->
+<label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    Male
+</label>
+
+<!--female-->
+<label>
+    <input type="radio" id="female" name="gender" value="female">
+    Female
+</label>
+<br>
+
+<!--file-->
+<label for="photo">Attach photo</label>
+<br>
+<input type="file" id="photo">
+<br>
+
+<!--submit-->
+<input type="submit" value="SUBMIT">
+            </fieldset>
+        </form>
+    </body>
+</html>
